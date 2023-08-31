@@ -2,7 +2,7 @@
   "scripts": {
     "cy:test": "cypress open",
     "cy:run": "cypress run",
-    "cy:parallel" : "cypress-parallel -s cy:run -t 2 -d cypress/e2e/"
+    "cy:parallel" : "cypress-parallel -s cy:run -t 2 -d ./cypress/e2e/"
   },
   "devDependencies": {
     "cypress": "^12.17.4"
