@@ -1,7 +1,7 @@
 {
   "scripts": {
     "cy:test": "cypress open",
-    "cy:run": "cypress run",
+    "cy:run": "cypress run --headless",
     "cy:parallel" : "cypress-parallel -s cy:run -t 2 -d ./cypress/e2e/"
   },
   "devDependencies": {
