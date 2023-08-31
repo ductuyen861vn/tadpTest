@@ -5,6 +5,6 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here 
     },
-    baseUrl: 'http://192.168.55.225:8080/'
+    baseUrl: 'http://192.168.55.225:9000/'
   },
 });
