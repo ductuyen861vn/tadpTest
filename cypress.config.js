@@ -5,6 +5,6 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here 
     },
-    baseUrl: 'http://localhost:8090/'
+    baseUrl: 'http://192.168.55.225:8090/'
   },
 });
