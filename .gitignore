@@ -1,0 +1,8 @@
+/node_modules
+/.idea/
+*.log
+/cypress/screenshots
+/cypress/videos
+/cypress/reports
+package-lock.json
+/.scannerwork

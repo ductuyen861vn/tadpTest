@@ -1,8 +1,13 @@
 {
   "scripts": {
-    "test": "cypress open"
+    "cy:test": "cypress open",
+    "cy:run": "cypress run",
+    "cy:parallel" : "cypress-parallel -s cy:run -t 2 -d cypress/e2e/"
   },
   "devDependencies": {
     "cypress": "^12.17.4"
+  },
+  "dependencies": {
+    "cypress-parallel": "^0.13.0"
   }
 }
