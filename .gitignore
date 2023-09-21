@@ -4,5 +4,7 @@
 /cypress/screenshots
 /cypress/videos
 /cypress/reports
+/cypress/results
+/cypress/runner-results
 package-lock.json
 /.scannerwork
